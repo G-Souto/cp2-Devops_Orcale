@@ -1,13 +1,12 @@
 # Produto API - CP2 DevOps Linux
 
-API REST simples de CRUD de Produtos desenvolvida com Spring Boot e banco H2 em memória.
+API REST simples de CRUD de Produtos desenvolvida com Spring Boot.
 
 ## Tecnologias
 
 - Java 17
 - Spring Boot 3.2.4
 - Spring Data JPA
-- Banco H2 (em memória)
 
 ## Como rodar
 
@@ -67,10 +66,6 @@ Content-Type: application/json
 ```
 DELETE http://localhost:8080/produtos/1
 ```
-
-## Console H2
-
-Acesse o banco de dados em memória pelo navegador:
 
 ```
 http://localhost:8080/h2-console
